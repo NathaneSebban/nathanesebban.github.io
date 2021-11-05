@@ -1,0 +1,143 @@
+body
+{
+    background-image: url(../IMAGES/fond_rapido.jpg);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table
+{
+    border-collapse: collapse;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    
+}
+p
+{
+    text-align: center;
+    font-size: 50px;
+}
+h4
+{
+    margin-right: 400px;
+    margin-left: 310px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+td
+{
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(151, 150, 146);
+    color: black; 
+    border-color: whitesmoke;
+}
+#ordinateure
+{
+    display: flex;
+    margin-left: 150px;
+}
+#joueur
+{
+    display: flex;
+    margin-left: 50px;
+}
+#tblgrilleB
+{
+    width: 2000px;
+    display: flex;
+}
+.gris
+{
+    background-color: rgb(151, 150, 146);
+    cursor: pointer;
+    color: black;
+}
+.orange
+{
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+.rose
+{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.grilleB
+{
+    background-color: rgb(151, 150, 146);
+    color: black;
+    cursor: pointer;
+}
+#joueur
+{
+    display: flex;
+}
+#mytableB1
+{
+    position: relative;
+    left: 100px;
+}
+#mytableB2
+{
+    position: relative;
+    left: 380px;
+}
+#containerGrilleB
+{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+#miseDiv
+{
+    margin-left: 600px;
+}
+#trouver
+{
+    width: 1500px;
+    background: rgb(124,135,138);
+    background: linear-gradient(90deg, rgba(124,135,138,1) 25%, rgba(255,255,255,1) 50%, rgba(124,135,138,1) 75%);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+}
+#resselectioner
+{
+    width: 1500px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(124,135,138,1) 50%, rgba(255,255,255,1) 75%);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+}
+#resultatDesCommuns
+{
+    position: relative;
+    left: 500px;
+}
+#miseUtilisateur
+{
+    background: rgb(124,135,138);
+    background: linear-gradient(90deg, rgba(124,135,138,1) 25%, rgba(255,255,255,1) 50%, rgba(124,135,138,1) 75%);
+    border-radius: 10px;
+}
+#cagnotteUtilisateur
+{
+    background: rgb(124,135,138);
+    background: linear-gradient(90deg, rgba(124,135,138,1) 25%, rgba(255,255,255,1) 50%, rgba(124,135,138,1) 75%);
+    border-radius: 10px;
+}
+#retour
+{
+    width: 1500px;
+    background: rgb(124,135,138);
+    background: linear-gradient(90deg, rgba(124,135,138,1) 25%, rgba(255,255,255,1) 50%, rgba(124,135,138,1) 75%);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+}

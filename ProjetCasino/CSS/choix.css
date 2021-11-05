@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../IMAGES/entrer_casino.jpg);
+    /* background: #333 url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png'); */
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style:preserve-3d;
+}
+.container .box
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background: #2323239c;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+
+.container .box .name
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    transform-style:preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+.container .box:hover .name
+{
+    top: 40px;
+    opacity: 1;
+}
+.container .box .jouer
+{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    transform-style:preserve-3d;
+    transform: translate3d(-50,0,75px);
+    color: whitesmoke;
+    background: #333;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+.container .box:hover .jouer
+{
+    bottom: 20px;
+    opacity: 1;
+}
+.container .box .jeu
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   height: 250px;
+   width: 200px;
+   transition: 0.5s;
+   z-index: 10;
+   transition: 1s;
+   transform-style: preserve-3d;
+   transform: translate3d(-50%,-50%,50px); 
+   border-radius: 10px;  
+}
+.container .box .jeu
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   max-width: 300px;
+   transition: 0.5s;
+   z-index: 11;
+   transform-style: preserve-3d;
+   transform: translate3d(-50%,-50%,0px); 
+   /* border-radius: 10px;   */
+}
+.container .box:hover .jeu
+{
+    transform: translate3d(-50%,-50%,100px) rotate(-360deg);
+    transition: 1.5s;   
+}
+.container .box:nth-child(1) .jouer
+{
+    background: rgb(236, 224, 57);
+}
+.container .box:nth-child(2) .jouer
+{
+    background:rgb(56, 125, 204);
+}
+.container .box:nth-child(3) .jouer
+{
+    background: rgb(221, 86, 32);
+}
+.container .box:nth-child(1) .name
+{
+    color: rgb(236, 224, 57);
+}
+.container .box:nth-child(2) .name
+{
+    color: rgb(56, 125, 204);
+}
+.container .box:nth-child(3) .name
+{
+    color: rgb(221, 86, 32);
+}
