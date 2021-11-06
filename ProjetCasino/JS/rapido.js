@@ -128,14 +128,17 @@ function choixDuJoueureA()
             nbchoix =nbchoix - 1
         
 
-            // chifreSelectione.pop();
+            chifreSelectione.pop();
+            // pas entierement fonctionelle car retire le dernier element de la liste et pas celui souhaiter
 
-            for (i=0; i < 8 ; i++){
-                if (chifreSelectione.includes($(this).html())){
+            // test avec splice non fonctionelle non plus
+            
+            // for (i=0; i < 8 ; i++){
+            //     if (chifreSelectione.includes($(this).html())){
                     
-                    chifreSelectione.splice($.inArray($(this).html(),chifreSelectione),1)
-                }
-            }
+            //         chifreSelectione.splice($.inArray($(this).html(),chifreSelectione))
+            //     }
+            // }
         
    
     }

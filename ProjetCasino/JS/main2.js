@@ -1,3 +1,4 @@
+// definissez votre naviagteur a 100 % dans le memory foot
 function nb_aleatoire(nb)
 {
     nombre = Math.floor(Math.random() * nb)+1;
