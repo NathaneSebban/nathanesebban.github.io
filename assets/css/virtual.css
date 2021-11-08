@@ -370,6 +370,10 @@ a:hover, a:active {
     background-color: #fff;
     box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.2);
 }
+#btntest
+{
+    margin-left: 300px;
+}
 
 
 /* 
