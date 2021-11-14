@@ -260,7 +260,7 @@ function compareListe()
     if( $('#cagnotteUtilisateur').val() === "0" )
     {
         alert("Vous n'avez plus de sous !!");
-        $('#resultat').attr('src',"../IMAGES/fin.gif");
+        $('#resultat').attr('src',"../images/fin.gif");
     }
     // $('#cagnotteUtilisateur').val(gain)
 }

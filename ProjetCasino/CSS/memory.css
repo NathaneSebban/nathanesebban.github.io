@@ -1,7 +1,7 @@
 body
 {
 	display: block;
-	background-image: url(../IMAGES/fondB.jpg);
+	background-image: url(../images/fondB.jpg);
 	/* background-color: black; */
 	background-size: 2000px;
 	background-position-y: -100px;
@@ -31,7 +31,7 @@ body
 }
 #btn 
 {
-	background-image: url(../IMAGES/couleur_biere.gif);
+	background-image: url(../images/couleur_biere.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
@@ -77,7 +77,7 @@ body
 }
 #btn1 
 {
-	background-image: url(../IMAGES/couleur_biere.gif);
+	background-image: url(../images/couleur_biere.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(255, 255, 255);

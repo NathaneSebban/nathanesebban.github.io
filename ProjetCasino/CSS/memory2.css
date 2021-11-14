@@ -1,7 +1,7 @@
 body
 {
 	display: block;
-	background-image: url(../IMAGES/fond_foot.jpg);
+	background-image: url(../images/fond_foot.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-family: sans-serif;
@@ -33,7 +33,7 @@ p
 }
 #btn 
 {
-	background-image: url(../IMAGES/couleur_ballon.gif);
+	background-image: url(../images/couleur_ballon.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(0, 0, 0);
@@ -79,7 +79,7 @@ p
 }
 #btn1 
 {
-	background-image: url(../IMAGES/couleur_ballon.gif);
+	background-image: url(../images/couleur_ballon.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(0, 0, 0);
@@ -151,7 +151,7 @@ p
 
 #imgDroite
 {
-	background-image: url(../IMAGES/ellezOm_gif.gif);
+	background-image: url(../images/ellezOm_gif.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(0, 0, 0);
@@ -174,7 +174,7 @@ p
 }
 #imgGauche
 {
-	background-image: url(../IMAGES/ellezOm_gif.gif);
+	background-image: url(../images/ellezOm_gif.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(0, 0, 0);

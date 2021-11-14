@@ -40,7 +40,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../IMAGES/comptoire.jpg);
+  background-image: url(../images/comptoire.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }

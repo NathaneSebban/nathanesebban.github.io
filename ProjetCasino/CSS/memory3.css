@@ -1,7 +1,7 @@
 body
 {
 	display: block;
-	background-image: url(../IMAGES/fond_pirate.png);
+	background-image: url(../images/fond_pirate.png);
 	background-size: 1800px;
 	background-position-y: -100px;
 	background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body
 }
 #btn 
 {
-	background-image: url(../IMAGES/couleur_pirate.jpg);
+	background-image: url(../images/couleur_pirate.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
@@ -76,7 +76,7 @@ body
 }
 #btn1 
 {
-	background-image: url(../IMAGES/couleur_pirate.jpg);
+	background-image: url(../images/couleur_pirate.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: rgb(255, 255, 255);

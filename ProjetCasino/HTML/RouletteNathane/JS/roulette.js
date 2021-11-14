@@ -17,7 +17,7 @@ function LancerRoulette()
     }
     else
     {
-        $('#resultat').attr('src',"../IMAGES/image-vide.png");
+        $('#resultat').attr('src',"../images/image-vide.png");
         $('#roulette ul').playSpin({
             onFinish : function(){
                 Calculer();
@@ -33,7 +33,7 @@ function Calculer()
     {
         // alert("C'EST LE GROS JACKPOT");
         
-        $('#resultat').attr('src',"../IMAGES/new-jackpot.gif");
+        $('#resultat').attr('src',"../images/new-jackpot.gif");
 
         $('#cagnotteUtilisateur').val(parseInt($('#cagnotteUtilisateur').val()) + parseInt(($('#miseUtilisateur').val()))*5);
     }
@@ -41,7 +41,7 @@ function Calculer()
     {
         // alert("C'EST GAGNE");
 
-        $('#resultat').attr('src',"../IMAGES/bravo.gif");
+        $('#resultat').attr('src',"../images/bravo.gif");
         
         $('#cagnotteUtilisateur').val(parseInt($('#cagnotteUtilisateur').val()) + parseInt(($('#miseUtilisateur').val()))*2);
     }
@@ -49,7 +49,7 @@ function Calculer()
     {
         // alert("ZUT C'EST PERDU");
 
-        $('#resultat').attr('src',"../IMAGES/perdu.png");
+        $('#resultat').attr('src',"../images/perdu.png");
         
         $('#cagnotteUtilisateur').val(parseInt($('#cagnotteUtilisateur').val()) - parseInt(($('#miseUtilisateur').val())));
     }
