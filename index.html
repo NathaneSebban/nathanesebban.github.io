@@ -1,311 +1,634 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
-  
-  <title>Portfolio Nathane Sebban</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create a stylish landing page for your business startup and get leads for the offered services with this HTML landing page template.">
+    <meta name="author" content="Inovatik">
 
-  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/css/themify-icons.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
 
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/animate/animate.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/owl-carousel/owl.carousel.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/nice-select/css/nice-select.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/vendor/fancybox/css/jquery.fancybox.min.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/css/virtual.css">
-  
-  <link rel="stylesheet" type="text/css" href="/assets/css/topbar.virtual.css">
+    <!-- Website Title -->
+    <title>Bull Run Consulting</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/logo1.jpeg">
 </head>
-<body class="theme-red">
-  
-  <!-- Back to top button -->
-  <div class="btn-back_to_top">
-    <span class="ti-arrow-up"></span>
-  </div>
-  
-  <!-- Setting button -->
-  <div class="config">
-    <div class="template-config">
-      <!-- Settings -->
-      <div class="d-block">
-        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
-      </div>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
     </div>
-    <div class="set-menu">
-      <p>Choisir la couleur</p>
-      <div class="color-bar" data-toggle="selected">
-        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
-        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
-        <span class="color-item bg-theme-green" data-class="theme-green"></span>
-        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
-        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
-      </div>
-    </div>
-  </div>
-  
-  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
-    <!-- Navbar -->
-    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
-      <div class="container">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
-          <span class="ti-menu"></span>
+    <!-- end of preloader -->
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo1.jpeg" alt="alternative"></a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
         </button>
-        <div class="collapse navbar-collapse" id="main-navbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="#acceuil" class="nav-link" data-animate="scrolling">Acceuil</a>
-            </li>
-            <li class="nav-item">
-              <a href="#cvlm" class="nav-link" data-animate="scrolling">CV & LM</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projetecole" class="nav-link" data-animate="scrolling">Projet d'école</a>
-            </li>
-            <li class="nav-item">
-              <a href="#premierstage" class="nav-link" data-animate="scrolling">Premier Stage</a>
-            </li>
-            <li class="nav-item">
-              <a href="#deuxiemestage" class="nav-link" data-animate="scrolling">Deuxième Stage</a>
-            </li>
-            <li class="nav-item">
-              <a href="#tblcompetence" class="nav-link" data-animate="scrolling">Tableau de compétences</a>
-            </li>
-        
-          </ul>
-          <ul class="nav ml-auto">
-            <li class="nav-item">
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div> <!-- End Navbar -->
-    <!-- Caption header -->
-    <div class="caption-header text-center wow zoomInDown" id="acceuil">
-      <h5 class="fw-normal">Bienvenue</h5>
-      <h1 class="fw-light mb-4">Je suis <b class="fg-theme">Nathane</b> Sebban</h1>
-      <div class="badge">Developpeur Informatique</div>
-    </div> <!-- End Caption header -->
-    <div class="floating-button"><span class="ti-mouse"></span></div>
-  </div>
-  
-  <div class="vg-page page-about" id="cvlm">
-    <br><br>
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-4 py-3">
-          <div class="img-place wow fadeInUp">
-            <img src="/assets/img/acceuilphoto.jpeg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h1 class="fw-light">Nathane Sebban</h1>
-          <h5 class="fg-theme mb-3">Developpeur Informatique</h5>
-          <p class="text-muted">Je suis étudiant en 2ème année de BTS SIO SLAM je suis dynamique, créative et méthodique, je suis passionnée par l'informatique et les nouvelles technologies.
-            Depuis le début de mon BTS, j'ai découvert une véritable passion pour le développement informatique.
-            A travers ce site, vous pourrez explorer mon parcours ainsi que les différents projets effectués durant mon BTS. 
-            </p>
-          <ul class="theme-list">
-            <li><b>Pays:</b> France</li>
-            <li><b>Ville:</b> Paris</li>
-            <li><b>Age:</b> 19</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>  
-   
-  <div class="imgtest">
-    <div class="grid-item apps ios wow zoomIn">
-      <div class="img-place" data-src="../assets/img/cvlm/cv.png" data-fancybox data-caption="">
-        <img src="/assets/img/cvlm/cv.png" alt="">
-        <div class="img-caption">
-          <h5 class="fg-theme">CV</h5>
-        </div>
-      </div>
-      <a href="/assets/img/cvlm/CV-Offi.pdf"><button class="btn btn-theme btn-rounded" id="btntest">Télécharger mon CV</button></a>
-    </div>
-    <div class="grid-item graphic ui-ux wow zoomIn">
-      <div class="img-place" data-src="../assets/img/cvlm/lm.png" data-fancybox data-caption="">
-        <img src="/assets/img/cvlm/lm.png" alt="">
-        <div class="img-caption">
-          <h5 class="fg-theme">LM</h5>
-        </div>
-      </div>
-      <a href="/assets/img/cvlm/LM-SEBBAN.pdf"><button class="btn btn-theme btn-rounded" id="btntest">Télécharger ma LM</button></a>
-    </div>
-  </div>
+        <!-- end of mobile menu toggle button -->
 
-  <!-- Projets Ecole -->
-    <div class="container" id="projetecole">
-      <br><br><br>
-      <h1 class="text-center fw-normal wow fadeInUp">Projet d'école</h1>
-      <div class="row post-grid">
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="/assets/img/projetecole/casino.png"alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">2020-2021</a>
-              <a href="/casino.html" class="post-title">Projet Casino</a>
-            </div>
-          </div>        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="/assets/img/projetecole/lafleur.png" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">2021-2022</a>
-              <a href="/lafleur.html" class="post-title">Projet LaFleur</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#histoire">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#offres">Nos offres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#savoir">Savoir faire</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#team">Notre équipe</a>
+                </li>
 
 
-    <!-- Stage -->
-    <div class="container py-5" id="premierstage">
-      <br><br>
-      <h1 class="text-center fw-normal wow fadeIn">Premier Stage</h1>
-      <br><br>
-      <div class="test">
-        <span class="image1"><img src="/assets/img/stage1/Logo.png" alt="GS"/></span>
-        <br><br><br><br>
-        
-        <p class="testtext">L’entreprise dans laquelle j’ai effectué mon stage s’appelle GS Optic il s’agit d’un opticien qui possède plusieurs boutique : Paris Belleville, Montreuil, Paris Maubert. Cet opticien propose divers types de lunettes de vue ou de soleil, des lentilles mais aussi des paires de lunettes personnalisables.
-        Le chef d’entreprise s’appelle Gregory SAYADA, chacune de ses boutiques est accompagné d’au moins deux opticiens spécialisés.
-        J’ai eu pour projet de crée un nouveau site pour l’entreprise</p> 
-        
-        <br><br>
-        
-        <p class="testtext">Pour la création du site l’entreprise à souhaité que j’utilise le logiciel WordPress. 
-        Le site doit comprendre une page de présentation de l’entreprise constitué d’un menu avec plusieurs pages, une page pour contacter l’opticien, une page récapitulative des différentes boutiques et différentes pages qui présentes les différents produit vendu par l’entreprise.
-        Le site doit être fonctionnel sur tous types d’appareil du smartphone jusqu’à l’ordinateur.
-        Le site doit respecter les couleurs de l’entreprise ( noir, rouge et blanc )
-        Ce dernier doit être épuré et facile d’utilisation.</p>
-        
-        <br><br>
-        
-        <span class="image main"><img src="/assets/img/stage1/wp.png" alt="" /></span>
-        
-        <br><br><br>
-        <hr>
-        <h5 class="testtext1">
-        Voici le résultat du site : <a href="https://gsoptic.fr/" target="_blank"> GS OPTIC</a>
-      </h5>
-        <br><br><br>
-        
-        <span class="image main"><img src="/assets/img/stage1/acceuil.png" alt="" /></span>
-          
-          <ul class="timeline mt-4 pr-md-5">
-            <li>
-              <div class="title">Conclusion</div>
-              <div class="details">
-                <p>Ce stage m’a beaucoup appris sur ce qu’était la création d’un site web complet pour une entreprise.
-                  J’ai par ailleurs appris à utiliser divers logiciel tel que WordPress, Elementor ou encore Photoshop.
-                  Ce stage m'a beaucoup enrichie sur les responsabilités que l’on pouvait avoir dans un projet au sein d’une entreprise.</p>
-              </div>
-              <a href="/assets/img/cvlm/Attestation_de_stage_-_SIO_2021.pdf" class="btn btn-theme">Convention de stage</a>
-            </li>
-          </ul> 
-        
-        
-        <div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_image_2.jpg);">
-          <div class="chiffre">
+                <!-- Dropdown Menu --> 
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="nosformations.html">Nos formations</a>
+                </li>         
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="php/login.php">Connexion</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
             <div class="container">
-              <div class="row section-counter">
-                <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-                  <h1 class="number" data-number="3">3</h1>
-                  <span>Boutiques</span>
-                </div>
-                <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-                  <h1 class="number" data-number="9">9</h1>
-                  <span>Employés</span>
-                </div>
-                <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-                  <h1 class="number" data-number="100">+100</h1>
-                  <span>Marques partenaires</span>
-                </div>
-                <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-                  <h1 class="number" data-number="12">12</h1>
-                  <span>Années experience</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1><span class="turquoise">Réussissez vos projets</span> blockchain & crypto</h1>
+                            <!-- <p class="p-large">Use Evolo free landing page template to promote your business startup and generate leads for the offered services</p> -->
+                            <a class="btn-solid-lg page-scroll" href="#histoire">DECOUVRIR</a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
-          <div class="container py-5" id="deuxiemestage">
-            <br><br>
-            <h1 class="text-center fw-normal wow fadeIn">Deuxieme Stage</h1>
-          </div>  
-      
+<!-- Details 1 -->
+<div id="histoire" class="basic-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-container">
+                    <h2>Notre Histoire</h2>
+                    <p>Bull Run Consulting est née en 2019. Nous regroupons une équipe pluridisciplinaire d’experts passionnés par les technologies du web décentralisé et spécialisés dans les blockchains et les cryptoactifs. </p>
+                    <h2>Pourquoi ?</h2>
+                    <p>Les blockchains, les cryptomonnaies et le web décentralisé constituent une nouvelle économie numérique encore en émergence qui répond à plusieurs grands enjeux actuels : défiance grandissante vis-à-vis d’institutions centralisées ; besoin de transparence face à l’opacité de différents systèmes ; problèmes posés par la concentration grandissante du pouvoir par les GAFA…
+                        Cette nouvelle économie deviendra massive à moyen terme.​</p>
+                    <h2>Nos ambitions</h2>
+                    <p>Notre ambition est de permettre aux organisations de se saisir au mieux des opportunités de la nouvelle économie numérique, en nous appuyant sur des compétences stratégiques, techniques et analytiques de haute valeur ajoutée sur les blockchains et cryptoactifs.</p>    
+                    <!-- <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a> -->
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <div class="image-container">
+                    <img class="img-fluid" src="images/details-1-office-worker.svg" alt="alternative">
+                </div> <!-- end of image-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of basic-1 -->
+<!-- end of details 1 -->
 
-  <div class="container py-5" id="tblcompetence">
-    <br><br>
-      <h1 class="fw-normal text-center wow fadeInUp">Tableau de compétences</h1>
-  </div>
 
-  <div class="tblcompetence">
-    <embed src="/assets/img/tblcompetence/tblCompetences.pdf" width="600px" height="900px">
-  </div>
-  
-  
-  
-  <!-- Contact -->
-  
-        <div class="col-12">
-          <p class="text-center mb-0 mt-4">Copyright &copy;2021. All right reserved | Made by Nathane S</p>
-        </div>
-      </div>
-    </div>
-  </div> <!-- End footer -->
-  
-  
-  <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <!-- Services -->
+    <div id="offres" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Nos Offres</h2>
+                    <!-- <p class="p-heading p-large">We serve small and medium sized companies in all tech related industries with high quality growth services which are presented below</p> -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
 
-  <script src="/assets/js/test.js"></script>
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/services-icon-1.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Etudes d'opportunités</h4>
+                            <p>Nous vous aidons à vous forger une conviction et à élaborer une stratégie pour bénéficier des opportunités business offertes par les blockchains et les cryptoactifs.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/services-icon-2.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Innovations & NFT</h4>
+                            <p>Nous sommes en veille technologique permanente, et nous par exemple justifions d'ores et déjà d'une expérience de conseil sur les NFT (Non Fungible Token). Nous y avons développé une réelle expertise, ainsi que de nombreuses idées relatives à la certification numérique. </p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/services-icon-3.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Due diligences & audits</h4>
+                            <p>Face à la multiplication des acteurs sur le marché blockchain et crypto, il peut être difficile d’évaluer la pertinence et solidité des différentes solutions.
+                                Notre équipe pluridisciplinaire (analystes, ingénieurs et consultants spécialisés) passe au crible ces projets et solutions</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/services-icon-1.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Audit de smart contracts</h4>
+                            <p>Relecture du code source et analyse poussée du code afin de pouvoir décrire le comportement du smart contract face à toutes les éventualités.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/services-icon-3.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Cadrage de projets</h4>
+                            <p>Nous étudions en détail votre projet et le cadrons sur les plans fonctionnel et technique, vous permettant ainsi de préciser les attentes du projet et de réduire les risques et les coûts associés à chaque future étape du développement.
+                                Notre équipe d’ingénieurs réalise vos projets sur-mesure, du prototype à la mise en production et à l’exploitation de votre solution.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of services -->
+
+
+
+    <!-- Details Lightboxes -->
+    <!-- Details Lightbox 1 -->
+	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox-1.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3>Design And Plan</h3>
+                    <hr>
+                    <h5>Core feature</h5>
+                    <p>The emailing module basically will speed up your email marketing operations while offering more subscriber control.</p>
+                    <p>Do you need to build lists for your email campaigns? It just got easier with Evolo.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">List building framework</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Easy database browsing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User administration</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Automate user signup</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Quick formatting tools</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Fast email checking</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#request">REQUEST</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox 1 -->
+
+    <!-- Details Lightbox 2 -->
+	<div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox-2.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3>Search To Optimize</h3>
+                    <hr>
+                    <h5>Core feature</h5>
+                    <p>The emailing module basically will speed up your email marketing operations while offering more subscriber control.</p>
+                    <p>Do you need to build lists for your email campaigns? It just got easier with Evolo.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">List building framework</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Easy database browsing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User administration</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Automate user signup</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Quick formatting tools</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Fast email checking</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#request">REQUEST</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox 2 -->
+    <!-- end of details lightboxes -->
+
+    <!-- Video -->
+    <div class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <h2>Check Out The Video</h2> -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Video Preview -->
+                    <!-- <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
+                                <img class="img-fluid" src="images/video-frame.svg" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span> -->
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                    <!-- <p>This video will show you a case study for one of our <strong>Major Customers</strong> and will help you understand why your startup needs Evolo in this highly competitive market</p> -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of video -->
+
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container" id="savoir">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/testimonials-2-men-talking.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <h2>Pourquoi nous?</h2>
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-author">Nos expériences </p>
+                                            <p class="testimonial-text">Notre avons une équipe d'experts basé en Israël au États-Unis en France et en Angleterre.
+                                                Nous regroupons une dizaine d'experts ayant fait leur preuve dans la finance traditionnelle et dans les nouvelles technologies.
+                                                Nous travaillons avec des grandes entreprises à l’international pour certaines cotées en bourse.</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-author">Années d’expérience </p>
+                                            <p class="testimonial-text">Nous cumulons avec notre équipe plus de 130 années d’expérience autant vous dires que nous essayons de vous apporter la solutions la plus complète dans ce domaine.</p>
+                                            
+                                        </div>
+                                    </div>        
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="testimonial-author">Bull Run Consulting: mais pas que</p>
+                                            <p class="testimonial-text">Bull Run Consulting regroupe nos activités de consulting auprès d'entreprises et de Family offices.
+
+ 
+
+                                                À la suite de ça nous avons créé Bull Run Capital un fond crypto dédié.</p>
+                                            
+                                        </div>
+                                    </div>        
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+                               
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of testimonials -->
+
+
+    <!-- About -->
+    <div id="team" class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Notre équipe</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/betsalel.webp" alt="alternative">
+                        </div> <!-- end of image-wrapper -->
+                        <p class="p-large"><strong>Betsalel Elfassy</strong></p>
+                        <p class="job-title">Founder & CEO</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span> <!-- end of social-icons -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/meir.webp" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large"><strong>Meir Greenfield</strong></p>
+                        <p class="job-title"> COO - Chief Operating Officer</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span> <!-- end of social-icons -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/harry.webp" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large"><strong>Harry Buttler</strong></p>
+                        <p class="job-title">Senior Associate</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span> <!-- end of social-icons -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of about -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Coordonnées</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">N'hésitez pas à nous appeler ou à nous envoyer un message via le formulaire de contact</li>
+                        <li><i class="fas fa-map-marker-alt"></i>71-75 Shelton Street Covent Garden London; UK</li>
+                        <li><i class="fas fa-phone"></i><a class="turquoise" href="tel:003024630820">+81 720 2212</a></li>
+                        <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:office@evolo.com">office@evolo.com</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.910798698565!2d-0.12571368434264157!3d51.51485247963636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccab1f237b%3A0x436d7f0832fd499d!2s71%2C%2075%20Shelton%20St%2C%20London%20WC2H%209JQ%2C%20Royaume-Uni!5e0!3m2!1sfr!2sfr!4v1642158427972!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    
+                    <!-- Contact Form -->
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Nom</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Votre message</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>J'ai lu et j'accepte <a href="privacy-policy.html">la politique de confidentialité</a> et <a href="terms-conditions.html">les conditions générales</a> de BullRunConsulting
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">ENVOYER</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>About BullRunConsulting</h4>
+                        <p>Bull Run Consulting est avant tout une aventure humaine et collective née d’une aspiration forte : apporter du sens et de la valeur à nos clients pour accélérer leur croissance.</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Important Links</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Our business partners <a class="turquoise" href="https://blockchainpartner.fr/">blockchainpartner.fr</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Read our <a class="turquoise" href="terms-conditions.html">Terms & Conditions</a>, <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Réseaux sociaux</h4>
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/bullrunconsulting/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.instagram.com/bullrunconsulting/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.linkedin.com/in/bull-run-consulting-574027223/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> 
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2022 Nathiel - All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
     
-  <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    
-  <script src="/assets/vendor/owl-carousel/owl.carousel.min.js"></script>
-    
-  <script src="/assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-    
-  <script src="/assets/vendor/isotope/isotope.pkgd.min.js"></script>
-    
-  <script src="/assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
-    
-  <script src="/assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
-
-  <script src="/assets/vendor/wow/wow.min.js"></script>
-
-  <script src="/assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
-
-  <script src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-
-  <script src="/assets/js/google-maps.js"></script>
-    
-  <script src="/assets/js/topbar-virtual.js"></script>
-
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
-  
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
