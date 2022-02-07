@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/rouletteDavid.css">
+    <script src="../JS/JQuery 3.5.1.js"></script>
+    <script src="../JS/libraryRoulette.js"></script>
+    <script src="../JS/main.js"></script>
+    <title>Document</title>
+</head>
+<script>
+    $(
+        function()
+        {
+            $('#lancerLaRoulette').click(LancerRoulette);
+        }
+    );
+
+    function play()
+        {
+                var audio = document.getElementById("audio");
+                audio.play();
+        }
+
+
+</script>
+
+</head>
+
+<body>
+    
+<div class="container">
+    <div class="gauche">
+        <br><br><br><br>
+        <div id="miseDiv">
+            <label for="">Votre mise: </label>
+            <input id="miseUtilisateur" type="number">
+            <br><br>
+            <label for="">Votre cagnotte: </label>
+            <input id="cagnotteUtilisateur" value="50" type="text" readonly>
+            <br><br>
+
+        </div>
+        <div ><img id="resultat" src="../IMAGES/deBase.gif"></div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="droite">
+        <div id="roulette" class="images">
+            
+            <ul id="aGauche">
+                <li><img class="imgArme" src="../IMAGES/AK47NOOB.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/DragonLord.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/Pistolet.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/SaintCouteau.jpg" alt=""></li>
+            </ul> 
+            <ul id="milieu">
+                <li><img class="imgArme" src="../IMAGES/AK47NOOB.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/DragonLord.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/Pistolet.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/SaintCouteau.jpg" alt=""></li>
+            </ul> 
+            <ul id="aDroite">
+                <li><img class="imgArme" src="../IMAGES/AK47NOOB.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/DragonLord.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/Pistolet.jpg" alt=""></li>
+                <li><img class="imgArme" src="../IMAGES/SaintCouteau.jpg" alt=""></li>
+            </ul> 
+        </div>
+    </div>
+</div>
+
+
+<div id="deplacementbtn">
+<input id="lancerLaRoulette" type="button" value="LANCER" onclick="play()">
+<audio id="audio" src="../IMAGES/uzi-sound-effects.mp3" ></audio>
+</div>
+
+<div id="deplacementbtn2">
+    <a href="../../choixEleve.html"><input id="retour" type="button" value="RETOUR"></a> 
+   </div>
+
+</body>
+</html>

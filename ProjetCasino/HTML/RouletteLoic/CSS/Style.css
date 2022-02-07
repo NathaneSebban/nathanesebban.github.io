@@ -1,0 +1,23 @@
+#titre
+{
+   width: 1000px;
+   height: 500px;
+   top: 25px;
+   right: 50px;
+   position: absolute;
+   text-align: center;  
+}
+h1
+{
+    box-shadow: 6px 6px 20px red;
+    
+    
+}
+
+.Machine
+{
+    width: 600px;
+    height: 600px;
+    border-style:solid ;
+  
+}

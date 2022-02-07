@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/memory2.css">
+    <script src="../../JS/JQuery 3.5.1.js"></script>
+    <script src="../../JS/main2.js"></script>
+    
+    <title>Memory</title>
+<script>
+    
+    $
+    (
+        function()
+        {
+             // Exercice n°2
+             $("#btnTrouver").click(function()
+                {
+                    nbc = parseInt($('input:radio:checked').val()); 
+                     genererListe();
+                    dessinerTableau();
+                });
+        }
+    );
+</script>
+
+</head>
+<body>
+
+<div id="Menu">
+   
+
+    <input type="radio" name="1" class="option-input" value="6"><b>Mitroglou</b><br>
+    <input type="radio" name="1" class="option-input" value="12"><b>Mbappe</b><br>
+    <input type="radio" name="1" class="option-input" value="18"><b>Ronaldo</b>
+
+    <br><br>
+
+    <button id="btnTrouver">Trouver</button></p>
+</div>
+
+<div id="bouton">
+    <a href="../memoryLogo/memory2.html"><input id="btn" type="button" value="Rejouer"></a>
+    <a href="../../HTML/choixtheme.html"><input id="btn1" type="button" value="Retour"></a>
+    
+</div>
+
+<div id="imgGauche"></div>
+<div id="dessinTableau"></div>
+<div id="imgDroite"></div>
+
+
+</body>
+</html>
