@@ -1148,6 +1148,15 @@ a:hover, a:active {
     color: #fff;
     z-index: 11;
 }
+.grid-item .img-captione {
+    position: absolute;
+    bottom: 0;
+    padding: 12px 16px;
+    width: 100%;
+    background-color: #32313100;
+    color: #fff;
+    z-index: 11;
+}
 
 .grid-item .img-caption p {
     font-size: 14px;
