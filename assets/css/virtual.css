@@ -142,7 +142,10 @@ a:hover, a:active {
 }
 .tblcompetence
 {
-    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 .chiffre
 {
