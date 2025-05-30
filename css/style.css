@@ -1,7 +1,9 @@
 /* Variables */
 :root {
-    --primary-color: #0066cc;
-    --secondary-color: #4CAF50;
+    --primary-color: #16253D;
+    --secondary-color: #002C54;
+    --accent-color-1: #EFB509;
+    --accent-color-2: #CD7213;
     --text-color: #333;
     --light-gray: #f5f5f5;
     --white: #ffffff;
@@ -29,8 +31,8 @@ body {
 
 /* Header */
 .header {
-    background: var(--white);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: var(--primary-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     position: fixed;
     width: 100%;
     top: 0;
@@ -68,23 +70,32 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--white);
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: var(--primary-color);
+    color: var(--accent-color-1);
 }
 
 .nav-toggle {
     display: none;
 }
 
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: var(--white);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/hero-bg.jpg');
+    background: linear-gradient(rgba(0,44,84,0.8), rgba(0,44,84,0.8)), url('../assets/images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -126,7 +137,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: #0052a3;
+    background: var(--secondary-color);
     transform: translateY(-2px);
 }
 
@@ -206,7 +217,7 @@ body {
 
 .temoignage-card cite {
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--accent-color-1);
 }
 
 /* Animation de défilement des témoignages */
@@ -229,7 +240,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #333;
+    background: var(--primary-color);
     color: var(--white);
     padding: 60px 0 20px;
 }
@@ -252,13 +263,13 @@ body {
 }
 
 .social-links a {
-    color: var(--white);
+    color: var(--accent-color-1);
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: var(--primary-color);
+    color: var(--accent-color-1);
 }
 
 .footer-bottom {
@@ -281,7 +292,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: var(--primary-color);
+    color: var(--accent-color-1);
 }
 
 /* Responsive Design */
@@ -297,7 +308,7 @@ body {
         display: block;
         width: 25px;
         height: 3px;
-        background: var(--text-color);
+        background: var(--white);
         margin: 5px 0;
         transition: all 0.3s ease;
     }
@@ -308,7 +319,7 @@ body {
         top: 80px;
         left: 0;
         width: 100%;
-        background: var(--white);
+        background: var(--secondary-color);
         padding: 20px;
         flex-direction: column;
         text-align: center;
@@ -349,7 +360,7 @@ body {
 
 /* Styles spécifiques pour la page boutique */
 .boutique-hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/boutique-hero.jpg');
+    background: linear-gradient(rgba(0,44,84,0.8), rgba(0,44,84,0.8)), url('../assets/images/boutique-hero.jpg');
     height: 50vh;
 }
 
@@ -533,7 +544,7 @@ body {
 
 /* Styles spécifiques pour la page lunettes */
 .lunettes-hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/lunettes-hero.jpg');
+    background: linear-gradient(rgba(0,44,84,0.8), rgba(0,44,84,0.8)), url('../assets/images/lunettes-hero.jpg');
     height: 50vh;
 }
 
@@ -631,17 +642,19 @@ body {
 }
 
 .btn-details {
-    padding: 10px 20px;
-    background: var(--primary-color);
+    padding: 10px 25px;
+    background: var(--accent-color-1);
     color: var(--white);
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    font-weight: 500;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .btn-details:hover {
-    background: #0052a3;
+    background: var(--accent-color-2);
+    transform: scale(1.05);
 }
 
 .product-info {
@@ -659,10 +672,13 @@ body {
     margin-bottom: 5px;
 }
 
-.product-price {
-    color: var(--primary-color);
-    font-weight: 600;
-    font-size: 1.2rem;
+.product-price,
+.tendance-price {
+    color: var(--accent-color-2);
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: block;
+    margin-top: 8px;
 }
 
 /* Marques */
@@ -734,7 +750,7 @@ body {
 
 /* Styles spécifiques pour la page lentilles */
 .lentilles-hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/lentilles-hero.jpg');
+    background: linear-gradient(rgba(0,44,84,0.8), rgba(0,44,84,0.8)), url('../assets/images/lentilles-hero.jpg');
     height: 50vh;
 }
 
@@ -771,8 +787,7 @@ body {
 .category-icon {
     width: 80px;
     height: 80px;
-    margin: 0 auto 20px;
-    background: var(--primary-color);
+    background: var(--accent-color-1);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -849,7 +864,7 @@ body {
 
 .avantage-card i {
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: var(--accent-color-2);
     margin-bottom: 20px;
 }
 
@@ -892,7 +907,7 @@ body {
 
 /* Styles spécifiques pour la page contact */
 .contact-hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/contact-hero.jpg');
+    background: linear-gradient(rgba(0,44,84,0.8), rgba(0,44,84,0.8)), url('../assets/images/contact-hero.jpg');
     height: 40vh;
 }
 
@@ -1085,7 +1100,7 @@ body {
 .pourquoi-icon {
     width: 80px;
     height: 80px;
-    background: var(--white);
+    background: var(--accent-color-1);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1200,7 +1215,7 @@ body {
 
 .btn-details {
     padding: 10px 25px;
-    background: var(--primary-color);
+    background: var(--accent-color-1);
     color: var(--white);
     border: none;
     border-radius: 25px;
@@ -1217,7 +1232,7 @@ body {
 }
 
 .btn-details:hover {
-    background: #0052a3;
+    background: var(--accent-color-2);
     transform: scale(1.05);
 }
 
@@ -1242,7 +1257,7 @@ body {
 }
 
 .tendance-price {
-    color: var(--primary-color);
+    color: var(--accent-color-2);
     font-weight: 700;
     font-size: 1.3rem;
     display: block;
