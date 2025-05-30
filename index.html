@@ -1,30 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Nathane</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpticView - Votre opticien de confiance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="vh">
-    <div>
-      <div class="wrap">
-        <h1>Maintenance mode</h1>
-        <h2>
-          <p>We apologize for the inconvenience.<br>Just like me, the website is evolving and getting better every day!</p>
-        </h2>
-        <p>Thank you for your understanding.</p>
-      </div>
-      <div class="social-media">
-        <a href="https://www.linkedin.com/in/nathane-sebban/" target="_blank">
-          <i class="fab fa-linkedin" style="font-size: 30px;"></i>
-        </a>
-      </div>
-    </div>
-  </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="OpticView Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="lunettes.html">Nos Lunettes</a></li>
+                    <li><a href="lentilles.html">Nos Lentilles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bienvenue chez OpticView</h1>
+                <p>Votre expert en optique depuis plus de 20 ans</p>
+                <a href="boutique.html" class="btn btn-primary">Découvrir notre boutique</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notre Histoire -->
+    <section class="histoire">
+        <div class="container">
+            <h2>Notre Histoire</h2>
+            <div class="histoire-content">
+                <div class="histoire-text">
+                    <p>Depuis plus de deux décennies, OpticView s'engage à offrir un service d'excellence dans le domaine de l'optique. Notre expertise et notre passion nous permettent de vous accompagner dans le choix de vos équipements optiques avec professionnalisme et attention.</p>
+                </div>
+                <div class="histoire-images">
+                    <img src="assets/images/boutique-1.jpg" alt="Notre boutique">
+                    <img src="assets/images/boutique-2.jpg" alt="Notre équipe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pourquoi nous choisir -->
+    <section class="pourquoi-nous">
+        <div class="container">
+            <h2>Pourquoi nous choisir ?</h2>
+            <div class="pourquoi-grid">
+                <div class="pourquoi-card">
+                    <div class="pourquoi-icon">
+                        <span class="emoji">🏆</span>
+                    </div>
+                    <div class="pourquoi-content">
+                        <h3>Expertise</h3>
+                        <p>Plus de 20 ans d'expérience dans le domaine de l'optique</p>
+                    </div>
+                </div>
+                <div class="pourquoi-card">
+                    <div class="pourquoi-icon">
+                        <span class="emoji">💝</span>
+                    </div>
+                    <div class="pourquoi-content">
+                        <h3>Service Personnalisé</h3>
+                        <p>Un accompagnement sur mesure pour chaque client</p>
+                    </div>
+                </div>
+                <div class="pourquoi-card">
+                    <div class="pourquoi-icon">
+                        <span class="emoji">💎</span>
+                    </div>
+                    <div class="pourquoi-content">
+                        <h3>Qualité Premium</h3>
+                        <p>Des marques reconnues et des produits de haute qualité</p>
+                    </div>
+                </div>
+                <div class="pourquoi-card">
+                    <div class="pourquoi-icon">
+                        <span class="emoji">💰</span>
+                    </div>
+                    <div class="pourquoi-content">
+                        <h3>Prix Compétitifs</h3>
+                        <p>Des tarifs adaptés et des offres exclusives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Les Tendances -->
+    <section class="tendances">
+        <div class="container">
+            <h2>Les Tendances</h2>
+            <div class="tendances-slider">
+                <div class="tendances-track">
+                    <div class="tendance-card">
+                        <div class="tendance-image">
+                            <img src="assets/images/tendance-1.jpg" alt="Lunettes tendance 1">
+                            <div class="tendance-overlay">
+                                <button class="btn-details">Voir détails</button>
+                            </div>
+                        </div>
+                        <div class="tendance-info">
+                            <h3>Ray-Ban Clubmaster</h3>
+                            <p>Style rétro intemporel</p>
+                        </div>
+                    </div>
+                    <div class="tendance-card">
+                        <div class="tendance-image">
+                            <img src="assets/images/tendance-2.jpg" alt="Lunettes tendance 2">
+                            <div class="tendance-overlay">
+                                <button class="btn-details">Voir détails</button>
+                            </div>
+                        </div>
+                        <div class="tendance-info">
+                            <h3>Oakley Holbrook</h3>
+                            <p>Design sportif moderne</p>
+                        </div>
+                    </div>
+                    <div class="tendance-card">
+                        <div class="tendance-image">
+                            <img src="assets/images/tendance-3.jpg" alt="Lunettes tendance 3">
+                            <div class="tendance-overlay">
+                                <button class="btn-details">Voir détails</button>
+                            </div>
+                        </div>
+                        <div class="tendance-info">
+                            <h3>Persol PO3165</h3>
+                            <p>Élégance italienne</p>
+                        </div>
+                    </div>
+                    <div class="tendance-card">
+                        <div class="tendance-image">
+                            <img src="assets/images/tendance-4.jpg" alt="Lunettes tendance 4">
+                            <div class="tendance-overlay">
+                                <button class="btn-details">Voir détails</button>
+                            </div>
+                        </div>
+                        <div class="tendance-info">
+                            <h3>Ray-Ban Aviator</h3>
+                            <p>Classique indémodable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="temoignages">
+        <div class="container">
+            <h2>Ce que disent nos clients</h2>
+            <div class="temoignages-grid">
+                <div class="temoignage-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Service exceptionnel et conseils personnalisés. Je recommande vivement !"</p>
+                    <cite>- Marie L.</cite>
+                </div>
+                <div class="temoignage-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Une équipe professionnelle et à l'écoute. Très satisfait de mes nouvelles lunettes."</p>
+                    <cite>- Pierre D.</cite>
+                </div>
+                <div class="temoignage-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Des lentilles de contact parfaitement adaptées à mes besoins. Je suis ravie !"</p>
+                    <cite>- Sophie M.</cite>
+                </div>
+                <div class="temoignage-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Un grand merci pour votre expertise et votre patience. Mes lunettes sont parfaites !"</p>
+                    <cite>- Thomas B.</cite>
+                </div>
+                <div class="temoignage-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Des prix compétitifs et un service de qualité. Je reviendrai !"</p>
+                    <cite>- Julie R.</cite>
+                </div>
+                <div class="temoignage-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Une équipe très professionnelle qui prend le temps d'écouter et de conseiller."</p>
+                    <cite>- Marc P.</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OpticView</h3>
+                    <p>Votre expert en optique depuis 2000</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>123 Avenue des Champs-Élysées<br>75008 Paris<br>Tél: 01 23 45 67 89<br>Email: contact@opticview.fr</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horaires</h3>
+                    <p>Lundi - Vendredi: 9h - 19h<br>Samedi: Fermé<br>Dimanche: 10h - 19h</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OpticView. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                    <a href="cgv.html">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
-</html>
+</html> 

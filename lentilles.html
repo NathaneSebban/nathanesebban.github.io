@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Lentilles - OpticView</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="OpticView Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="lunettes.html">Nos Lunettes</a></li>
+                    <li><a href="lentilles.html" class="active">Nos Lentilles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero lentilles-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Nos Lentilles</h1>
+                <p>Découvrez notre large sélection de lentilles de contact</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filtres -->
+    <section class="filtres">
+        <div class="container">
+            <div class="filtres-content">
+                <h2>Filtrer par catégorie</h2>
+                <div class="filtres-buttons">
+                    <button class="filter-btn active" data-filter="all">Toutes</button>
+                    <button class="filter-btn" data-filter="mensuelles">Lentilles mensuelles</button>
+                    <button class="filter-btn" data-filter="journalieres">Lentilles journalières</button>
+                    <button class="filter-btn" data-filter="couleur">Lentilles de couleur</button>
+                    <button class="filter-btn" data-filter="multifocales">Lentilles multifocales</button>
+                    <button class="filter-btn" data-filter="toriques">Lentilles toriques</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grille de produits -->
+    <section class="produits">
+        <div class="container">
+            <div class="produits-grid">
+                <div class="product-card" data-category="mensuelles">
+                    <div class="product-image">
+                        <img src="assets/images/lentilles/mensuelles-1.svg" alt="Lentilles mensuelles">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Acuvue Oasys</h3>
+                        <p class="product-category">Lentilles mensuelles</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="journalieres">
+                    <div class="product-image">
+                        <img src="assets/images/lentilles/journalieres-1.svg" alt="Lentilles journalières">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Dailies Total1</h3>
+                        <p class="product-category">Lentilles journalières</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="colorees">
+                    <div class="product-image">
+                        <img src="assets/images/lentilles/colorees-1.svg" alt="Lentilles colorées">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Air Optix Colors</h3>
+                        <p class="product-category">Lentilles colorées</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="multifocales">
+                    <div class="product-image">
+                        <img src="assets/images/lentilles/multifocales-1.svg" alt="Lentilles multifocales">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>PureVision Multi-Focal</h3>
+                        <p class="product-category">Lentilles multifocales</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="toriques">
+                    <div class="product-image">
+                        <img src="assets/images/lentilles/toriques-1.svg" alt="Lentilles toriques">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Biofinity Toric</h3>
+                        <p class="product-category">Lentilles toriques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marques -->
+    <section class="marques">
+        <div class="container">
+            <h2>Nos Marques Partenaires</h2>
+            <div class="marques-grid">
+                <div class="marque-card">
+                    <img src="assets/images/logos/acuvue-logo.svg" alt="Acuvue">
+                </div>
+                <div class="marque-card">
+                    <img src="assets/images/logos/air-optix-logo.svg" alt="Air Optix">
+                </div>
+                <div class="marque-card">
+                    <img src="assets/images/logos/dailies-logo.svg" alt="Dailies">
+                </div>
+                <div class="marque-card">
+                    <img src="assets/images/logos/biofinity-logo.svg" alt="Biofinity">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OpticView</h3>
+                    <p>Votre expert en optique depuis 2000</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>123 Avenue des Champs-Élysées<br>75008 Paris<br>Tél: 01 23 45 67 89<br>Email: contact@opticview.fr</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horaires</h3>
+                    <p>Lundi - Vendredi: 9h - 19h<br>Samedi: Fermé<br>Dimanche: 10h - 19h</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OpticView. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                    <a href="cgv.html">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: Arial, sans-serif; font-weight: bold; }
+        .air { fill: #000000; }
+        .optix { fill: #0066CC; }
+    </style>
+    <text x="30" y="60" class="text air" font-size="40">AIR</text>
+    <text x="90" y="60" class="text optix" font-size="40">OPTIX</text>
+</svg> 

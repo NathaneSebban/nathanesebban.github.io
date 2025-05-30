@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: Arial, sans-serif; font-weight: bold; }
+        .ray { fill: #000000; }
+        .ban { fill: #FF0000; }
+    </style>
+    <text x="20" y="60" class="text ray" font-size="40">RAY</text>
+    <text x="100" y="60" class="text ban" font-size="40">-BAN</text>
+</svg> 

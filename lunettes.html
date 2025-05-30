@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Lunettes - OpticView</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="OpticView Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="lunettes.html" class="active">Nos Lunettes</a></li>
+                    <li><a href="lentilles.html">Nos Lentilles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero lunettes-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Nos Lunettes</h1>
+                <p>Découvrez notre large sélection de montures</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filtres -->
+    <section class="filtres">
+        <div class="container">
+            <div class="filtres-content">
+                <h2>Nos Collections</h2>
+                <div class="filtres-buttons">
+                    <button class="filter-btn active" data-category="all">Toutes</button>
+                    <button class="filter-btn" data-category="vue">Lunettes de vue</button>
+                    <button class="filter-btn" data-category="soleil">Lunettes de soleil</button>
+                    <button class="filter-btn" data-category="repos">Lunettes de repos</button>
+                    <button class="filter-btn" data-category="sport">Lunettes de sport</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produits -->
+    <section class="produits">
+        <div class="container">
+            <div class="produits-grid">
+                <!-- Lunettes de vue -->
+                <div class="product-card" data-category="vue">
+                    <div class="product-image">
+                        <img src="assets/images/lunettes/vue-1.svg" alt="Lunettes de vue">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ray-Ban Clubmaster</h3>
+                        <p class="product-category">Lunettes de vue</p>
+                    </div>
+                </div>
+
+                <!-- Lunettes de soleil -->
+                <div class="product-card" data-category="soleil">
+                    <div class="product-image">
+                        <img src="assets/images/lunettes/soleil-1.svg" alt="Lunettes de soleil">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Oakley Holbrook</h3>
+                        <p class="product-category">Lunettes de soleil</p>
+                    </div>
+                </div>
+
+                <!-- Lunettes de repos -->
+                <div class="product-card" data-category="repos">
+                    <div class="product-image">
+                        <img src="assets/images/lunettes/repos-1.svg" alt="Lunettes de repos">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gunnar Optiks</h3>
+                        <p class="product-category">Lunettes de repos</p>
+                    </div>
+                </div>
+
+                <!-- Lunettes de sport -->
+                <div class="product-card" data-category="sport">
+                    <div class="product-image">
+                        <img src="assets/images/lunettes/sport-1.svg" alt="Lunettes de sport">
+                        <div class="product-overlay">
+                            <button class="btn-details">Voir détails</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Oakley Radar</h3>
+                        <p class="product-category">Lunettes de sport</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marques -->
+    <section class="marques">
+        <div class="container">
+            <h2>Nos Marques Partenaires</h2>
+            <div class="marques-grid">
+                <div class="marque-card">
+                    <img src="assets/images/logos/rayban-logo.svg" alt="Ray-Ban">
+                </div>
+                <div class="marque-card">
+                    <img src="assets/images/logos/oakley-logo.svg" alt="Oakley">
+                </div>
+                <div class="marque-card">
+                    <img src="assets/images/logos/persol-logo.svg" alt="Persol">
+                </div>
+                <div class="marque-card">
+                    <img src="assets/images/logos/cartier-logo.svg" alt="Cartier">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OpticView</h3>
+                    <p>Votre expert en optique depuis 2000</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>123 Avenue des Champs-Élysées<br>75008 Paris<br>Tél: 01 23 45 67 89<br>Email: contact@opticview.fr</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horaires</h3>
+                    <p>Lundi - Vendredi: 9h - 19h<br>Samedi: Fermé<br>Dimanche: 10h - 19h</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OpticView. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                    <a href="cgv.html">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
